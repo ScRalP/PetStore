@@ -15,5 +15,5 @@ La connexion à un compte ```Admin``` va ajouter des fonctionnailtés d'ajout, d
 Tandis que la connexion en utilisateur ne permets que de parcourir les produits et d'effectuer des commandes
 
 ## Auteurs
-Quentin ROBARD
+Quentin ROBARD  
 Arthur OLK
