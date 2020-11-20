@@ -1,0 +1,50 @@
+.adjust-right{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.fill-width{
+    width: 100%;
+}
+
+.bg-image {
+    /* The image used */
+    background-image: url("https://cdn.futura-sciences.com/buildsv6/images/wide1920/a/1/0/a10bf158bd_126018_choisir-animal-compagnie.jpg");
+
+    /* Full height */
+    height: 700px;
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+    background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+    border: 5px ridge #46da7f;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+}
+
+    /* ROTATE ICON */
+.rotate{
+    -moz-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.rotate.down{
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
